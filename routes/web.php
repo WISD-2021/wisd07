@@ -28,3 +28,9 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/bb/b1', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/bb/b2', function () {
     return view('bb.b2');
 })->name('bb.b2');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dd/d1', function () {
+    return view('dd.d1');
+})->name('dd.d1');
+
+
