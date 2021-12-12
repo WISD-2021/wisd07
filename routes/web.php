@@ -33,4 +33,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dd/d1', function () {
     return view('dd.d1');
 })->name('dd.d1');
 
-
+Route::middleware(['auth:sanctum', 'verified'])->get('/dd/d2', function () {
+    return view('dd.d2');
+})->name('dd.d2');
